@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    background: #e0e0e0;
+}
+
+.clear{
+    clear: both;
+}
+
+/*Header*/
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #ccc;
+}
+
+header > h1{
+    margin-left: 70px;
+    float: left;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+header > span{
+    float: right;
+    line-height: 50px;
+    margin-right: 70px;
+}
+
+/*Fim header*/
+
+/*Fundo c/ formulario topo*/
+
+section{
+    width: 100%;
+    height:calc(100% - 50px);
+    background:url(../img/london.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#formulario-superior{
+    position: absolute;
+    width: 75%;
+    height: 300px;
+    top: calc(50% - 150px);
+    left: calc(50% - 37.5%);
+    background-color: #fff;
+}
+
+#formulario-header{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+#formulario-header >a{
+    float: left;
+    width: 33.33%; 
+    color: #fff;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-left: 1px solid #ccc;
+}
+
+#formulario-header > a > i{
+    margin-right: 10px;
+}
+
+#formulario-header >a:hover{
+    background: red;
+}
+
+#formulario-header{
+    border-left:none;
+}
+
+#formulario-form > h3{
+    font-weight: lighter;
+    margin: 30px 0px 10px 10px;
+}
+
+#formulario-form > form{
+    width: 100%; 
+}
+
+#form-reservar-data{
+    width: 100%; 
+}
+
+.elementos-form{
+    width: calc(50% - 20px);
+    float: left;
+    margin: 10px;
+}
+
+.elementos-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+#formulario-form > form > input[type=submit]{
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 40px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #575757;
+    border: 1px solid #ccc;
+}
+
+/*Fim fundo c/ formulario topo*/
+
+/*Main*/
+
+main{
+    width: 80%;
+    
+    margin: 0 auto;
+}
+
+#galeria-ofertas{
+    width: 100%;
+}
+
+#galeria-ofertas>h2{
+    font-weight: normal;
+}
+
+#galeria-ofertas>h2, p{
+    margin: 10px;
+}
+
+.coluna{
+    width: 50%;
+    float: left;
+    background: #e0e0e0;
+}
+
+#coluna1 > img{
+    width: 100%;
+    padding: 5px;
+}
+
+.imgs{
+    width: 50%;
+    float: left;
+    padding: 5px;
+    background: #e0e0e0;
+}
+
+.fundo-img{
+    padding: 37.7%;
+}
+
+#img1{
+    background: url(../img/newyork.jpg) 100% ,100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img2{
+    background: url(../img/paris.jpg) 100% ,100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img3{
+    background: url(../img/pisa.jpg) 100% ,100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#img4{
+    background: url(../img/sanfran.jpg) 100% ,100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#explore-nature{
+    width: 100%;
+}
+
+#explore-nature>h2{
+    font-weight: normal;
+}
+
+#explore-nature>h2, p{
+    margin: 10px;
+}
+
+.container-nature{
+    width: 100%;
+}
+
+.coluna-nature{
+    width:50%;
+    float: left;
+    background: #e0e0e0;    
+    padding: 5px 5px 0 5px;
+}
+
+.coluna-nature > img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.title{
+    background: white;
+    padding: 10px;
+}
+
+.title>h2{
+    font-weight: normal;
+    position: relative;
+    padding: 10px 10px 0 10px;
+}
+
+.title>p{
+    color: #575757;
+}
+
+.title>a{
+    padding: 10px;
+    color: black;
+}
+
+/*Fim main*/
+
+/*Formularios ofertas*/
+
+#formulario-ofertas{
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+}
+
+#form-promo{
+    background: #575757;
+    padding: 15px;
+}
+
+#form-promo>h2, p{
+    color: white;
+    font-weight: lighter;
+}
+
+#form-promo>p{
+    margin-left: 0;
+}
+
+#form-promo>form>label{
+    color: #fff;
+}
+
+#form-promo>form>input{
+    width: 100%;
+    height: 40px;
+}
+
+#form-promo>form>input[type=submit]{
+    margin-top: 10px;
+    width: 90px;
+    background: red;
+    color: #fff;
+    border: none;
+}
+/*Fim formularios ofertas*/
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer, h4, h6{
+    padding: 20px;
+}
+
+/*Fim footer*/
+
+/*media queries*/
+@media screen and (max-width: 768px){
+    header > h1{
+        float: left;
+        font-size: 25px;
+        line-height: 50px;
+    }
+    
+    header > span{
+        margin-right: 120px;
+        float: right;
+        line-height: 50px;
+    }
+
+    #formulario-header >a{
+        font-size: 16px;
+    }
+
+    section{
+        height:calc(80% - 50px);
+    }
+
+    #formulario-superior{
+        top: calc(40% - 150px);
+    }
+
+    main{
+        width: 98%;
+    }
+
+    #galeria-ofertas>h2{
+        font-size: 16px;
+    }
+    
+    #galeria-ofertas> p{
+        font-size: 14px;
+    }
+
+    .title>h2{
+        font-size: 16px;
+    }
+    
+    .title>p{
+        font-size: 14px;
+    }
+    
+    .title>a{
+        font-size: 14px;
+    }
+
+    #explore-nature>h2{
+        font-size: 16px;
+    }
+    
+    #explore-nature>p{
+        font-size: 14px;
+    }
+
+    #form-promo>h2, p{
+       font-size: 16px;
+    }
+    
+    #form-promo>p{
+        font-size: 14px;
+    }
+
+
+    
+}
+
+@media screen and (max-width: 450px){
+    header > h1{
+        margin-left: 20px;
+        float: left;
+        font-size: 25px;
+        line-height: 50px;
+    }
+
+    header > span{
+        margin-right: 20px;
+        float: right;
+        line-height: 50px;
+    }
+
+    section{
+        height: 310px;
+        background: none;
+    }
+
+    #formulario-superior{
+        position: static;
+        width: 100%;
+        height: 320px;
+        background-color: #fff;
+    }
+
+    #formulario-header{
+        width: 100%;
+    }
+    #formulario-header >a{
+        float: left;
+        width: 32.33%; 
+        color: #fff;
+        font-size: 14px;
+    }
+
+    .elementos-form{
+        width: 95%;
+        display: block;
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+    #formulario-form > form > input[type=submit]{
+        margin-top: 5px;
+    }
+
+    main{
+        width: 100%;
+        margin-top: 20px;
+        position: static;
+    }
+    
+    .coluna{
+        width: 100%;
+    }
+
+    .imgs{
+        width: 100%;
+    }
+
+    .coluna-nature{
+        width:100%;
+        margin: 5px 0;
+    }
+
+    #form-promo>h2, p{
+        font-size: 14px;
+     }
+     
+     #form-promo>p{
+         font-size: 12px;
+     }
+ 
+   
+
+}
+
+@media screen and (max-width: 320px){
+    #formulario-header >a{
+        font-size: 12px;  
+    }
+
+    .title>h2{
+        font-size: 14px;
+    }
+    
+    .title>p{
+        font-size: 12px;
+    }
+    
+    .title>a{
+        font-size: 12px;
+    }
+    
+    #galeria-ofertas>h2{
+        font-size: 14px;
+    }
+    
+    #galeria-ofertas> p{
+        font-size: 12px;
+    }
+
+    #explore-nature>h2{
+        font-size: 14px;
+    }
+    
+    #explore-nature>p{
+        font-size: 12px;
+    }
+
+}
